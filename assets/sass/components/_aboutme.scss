@@ -1,0 +1,14 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the about me aside component.
+// -----------------------------------------------------------------------------
+aside#aboutme {
+  border : 1px solid $light-grey;
+
+  .content {
+    padding : 10px;
+
+    p {
+      margin : 2px 0;
+    }
+  }
+}

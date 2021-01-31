@@ -1,0 +1,27 @@
+// -----------------------------------------------------------------------------
+// This file contains color helpers
+// -----------------------------------------------------------------------------
+.bg-brand-color {
+  background-color: $brand-color;
+}
+
+.brand-color {
+  color : $brand-color !important;
+}
+
+.bg-brand-color-alt {
+  background-color: $brand-color-alt;
+}
+
+.brand-color-alt {
+  color : $brand-color-alt;
+}
+
+.bg-brand-color.bg-transition {
+  -webkit-transition: background-color 500ms linear;
+      -ms-transition: background-color 500ms linear;
+          transition: background-color 500ms linear;
+  &:hover {
+    background-color: $brand-color-alt;
+  }
+}
